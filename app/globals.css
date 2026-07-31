@@ -57,6 +57,8 @@
 html {
   scroll-behavior: smooth;
   background: var(--cream);
+  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 body {
@@ -65,6 +67,8 @@ body {
   background: var(--cream);
   color: var(--ink);
   font-family: "Plus Jakarta Sans", sans-serif;
+  overflow-x: hidden;
+  overflow-x: clip;
 }
 
 button,
