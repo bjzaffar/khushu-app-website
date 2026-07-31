@@ -265,6 +265,13 @@ p {
   box-shadow: 0 12px 25px rgba(48, 65, 50, 0.07);
 }
 
+.download-note {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
 .hero-visual,
 .steps-visual {
   position: relative;
@@ -1069,6 +1076,10 @@ p {
   .download-button {
     width: 100%;
     min-height: 64px;
+  }
+
+  .download-note {
+    text-align: center;
   }
 
   .hero-visual {
