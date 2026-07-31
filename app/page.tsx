@@ -22,7 +22,7 @@ const features = [
   },
   {
     title: "AI pre-salah reminders",
-    subtitle: "For custom distractions—still based only on verified messages",
+    subtitle: "For custom distractions—generated based on verified reminders only",
     image: "/khushu-maghrib.jpg",
     imageAlt: "Khushu App Maghrib reflection screen",
   },
