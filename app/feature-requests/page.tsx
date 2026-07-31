@@ -11,7 +11,7 @@ export default function FeatureRequestsPage() {
     <PlaceholderPage
       eyebrow="Feature requests"
       title="Help shape what comes next"
-      description="A dedicated place to share and vote on ideas is coming soon. For now, this page is holding the space."
+      description="A dedicated place to share and vote on ideas. Coming soon..."
     />
   );
 }
