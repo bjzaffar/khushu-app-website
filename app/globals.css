@@ -280,17 +280,27 @@ p {
 
 .hero-visual::before {
   position: absolute;
-  width: min(34vw, 450px);
+  width: min(100%, 560px);
   aspect-ratio: 1;
   border-radius: 50%;
-  background: var(--sage-soft);
+  background: radial-gradient(
+    circle at center,
+    var(--sage-soft) 0 35.5%,
+    rgba(220, 230, 217, 0.72) 36% 37.6%,
+    rgba(90, 122, 90, 0.14) 38% 38.55%,
+    transparent 39.1% 50.4%,
+    rgba(90, 122, 90, 0.11) 50.8% 51.2%,
+    transparent 51.7% 62.7%,
+    rgba(90, 122, 90, 0.075) 63% 63.3%,
+    transparent 63.8% 74.6%,
+    rgba(90, 122, 90, 0.05) 74.85% 75.05%,
+    transparent 75.6%
+  );
   content: "";
 }
 
 .hero-orbit {
-  position: absolute;
-  border: 1px solid rgba(90, 122, 90, 0.21);
-  border-radius: 50%;
+  display: none;
 }
 
 .hero-orbit-one {
@@ -426,6 +436,7 @@ p {
 }
 
 .steps-visual {
+  --steps-phone-width: min(300px, 68%);
   min-height: 650px;
   border-radius: 50px;
   background: var(--sage);
@@ -455,7 +466,7 @@ p {
 }
 
 .phone-steps {
-  width: min(300px, 68%);
+  width: var(--steps-phone-width);
   aspect-ratio: 0.47;
   padding: 0;
   overflow: hidden;
@@ -483,12 +494,12 @@ p {
 
 .steps-dot-one {
   top: 110px;
-  right: 58px;
+  right: calc((100% - var(--steps-phone-width)) / 2 - 30px);
 }
 
 .steps-dot-two {
   bottom: 70px;
-  left: 58px;
+  left: calc((100% - var(--steps-phone-width)) / 2 - 30px);
   width: 11px;
   height: 11px;
 }
@@ -1091,12 +1102,13 @@ p {
   }
 
   .steps-visual {
+    --steps-phone-width: min(265px, 69vw);
     min-height: 570px;
     border-radius: 38px;
   }
 
   .phone-steps {
-    width: min(265px, 69vw);
+    width: var(--steps-phone-width);
   }
 
   .steps-copy {
