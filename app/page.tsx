@@ -69,6 +69,7 @@ export default function Home() {
                 Download for Android
               </button>
             </div>
+            <p className="download-note">Coming soon...</p>
           </div>
 
           <div className="hero-visual" aria-label="Khushu App insights screen">
