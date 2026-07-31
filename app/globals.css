@@ -589,7 +589,7 @@ p {
 .features-heading > p {
   margin: 0 0 8px;
   color: rgba(255, 255, 255, 0.76);
-  font-size: 0.96rem;
+  font-size: 1.05rem;
   line-height: 1.7;
 }
 
@@ -1147,7 +1147,7 @@ p {
   }
 
   .features-heading > p {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
   }
 
   .feature-grid {
