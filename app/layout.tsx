@@ -22,8 +22,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description:
       "Simple prayer focus tracking. Learn your patterns and distractions.",
     icons: {
-      icon: "/khushu-ai-icon.jpeg",
-      apple: "/khushu-ai-icon.jpeg",
+      icon: "/khushu-logo.png",
+      apple: "/khushu-logo.png",
     },
     openGraph: {
       title: "Want to have more focus in salah?",
