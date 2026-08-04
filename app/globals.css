@@ -917,6 +917,142 @@ p {
   font-weight: 700;
 }
 
+.deletion-page {
+  width: min(900px, calc(100% - 48px));
+  margin: 0 auto;
+  padding: 160px 0 64px;
+}
+
+.deletion-card {
+  padding: clamp(32px, 6vw, 76px);
+  border-radius: 44px;
+  background: var(--white);
+  box-shadow: var(--shadow);
+}
+
+.deletion-card h1 {
+  margin: 0;
+  font-size: clamp(2.7rem, 6vw, 5rem);
+  font-weight: 750;
+  line-height: 1;
+  letter-spacing: -0.06em;
+}
+
+.deletion-card .eyebrow {
+  margin-bottom: 12px;
+}
+
+.deletion-intro {
+  max-width: 620px;
+  margin: 30px 0 26px;
+  color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.deletion-section {
+  padding: 28px 0;
+  border-top: 1px solid var(--line);
+}
+
+.deletion-section h2 {
+  margin: 0 0 12px;
+  font-size: 1.2rem;
+  font-weight: 750;
+  letter-spacing: -0.025em;
+}
+
+.deletion-section > p,
+.deletion-confirmation > p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.96rem;
+  line-height: 1.75;
+}
+
+.deletion-section strong {
+  color: var(--ink);
+}
+
+.deletion-form {
+  display: grid;
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.deletion-form label {
+  display: grid;
+  gap: 8px;
+  color: var(--ink);
+  font-size: 0.86rem;
+  font-weight: 750;
+}
+
+.deletion-form label span em {
+  color: var(--muted);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.deletion-form input,
+.deletion-form select,
+.deletion-form textarea {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  outline: none;
+  background: var(--cream);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.96rem;
+  padding: 14px 16px;
+}
+
+.deletion-form select {
+  cursor: pointer;
+}
+
+.deletion-form textarea {
+  resize: vertical;
+}
+
+.deletion-form input:focus,
+.deletion-form select:focus,
+.deletion-form textarea:focus {
+  border-color: var(--sage);
+  box-shadow: 0 0 0 3px rgba(90, 122, 90, 0.14);
+}
+
+.form-note,
+.form-status {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.84rem;
+  line-height: 1.6;
+}
+
+.form-status {
+  color: var(--sage-dark);
+  font-weight: 650;
+}
+
+.form-status-error {
+  color: #a53e38;
+}
+
+.deletion-submit {
+  justify-content: center;
+  width: fit-content;
+  min-width: 180px;
+}
+
+.deletion-confirmation {
+  display: grid;
+  gap: 28px;
+  margin-top: 42px;
+}
+
+
 .back-home {
   display: inline-flex;
   min-height: 54px;
@@ -1279,9 +1415,31 @@ p {
     padding: 130px 0 32px;
   }
 
+  .deletion-page {
+    width: min(100% - 28px, 680px);
+    padding: 130px 0 32px;
+  }
+
   .policy-card {
     padding: 34px 24px;
     border-radius: 32px;
+  }
+
+  .deletion-card {
+    padding: 34px 24px;
+    border-radius: 32px;
+  }
+
+  .deletion-card h1 {
+    font-size: clamp(2.5rem, 12vw, 4rem);
+  }
+
+  .deletion-intro {
+    font-size: 1rem;
+  }
+
+  .deletion-submit {
+    width: 100%;
   }
 
   .policy-lead {
