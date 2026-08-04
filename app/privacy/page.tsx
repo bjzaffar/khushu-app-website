@@ -28,7 +28,7 @@ export default function PrivacyPage() {
               This policy applies to the Khushu App mobile app and this
               website. Khushu App is responsible for the personal information
               described here. If you have a question, contact us at{" "}
-              <a href="mailto:bjzaffar@gmail.com">bjzaffar@gmail.com</a>.
+              <a href="mailto:khushu.help@gmail.com">khushu.help@gmail.com</a>.
             </p>
           </section>
 
@@ -108,7 +108,7 @@ export default function PrivacyPage() {
               access, correction, deletion, restriction, objection, or a copy
               of your personal information, and to complain to your local data
               protection authority. To make a request, email{" "}
-              <a href="mailto:bjzaffar@gmail.com">bjzaffar@gmail.com</a>.
+              <a href="mailto:khushu.help@gmail.com">khushu.help@gmail.com</a>.
             </p>
           </section>
 
