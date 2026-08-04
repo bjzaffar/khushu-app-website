@@ -39,7 +39,7 @@ export function DeleteAccountConfirmation() {
     setMessage("");
 
     try {
-      const response = await fetch("/", {
+      const response = await fetch("/account-deletion-form.html", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams({
