@@ -33,8 +33,8 @@ export default function DeleteAccountPage() {
           <section className="deletion-section">
             <h2>Can&apos;t access the app or your account?</h2>
             <p>
-              Send us a deletion request below. We&apos;ll review it and may contact
-              you to verify account ownership before completing the deletion.
+              Send us a deletion request below. We&apos;ll review it and contact you
+              to verify account ownership before completing the deletion.
             </p>
             <DeleteAccountForm />
           </section>
