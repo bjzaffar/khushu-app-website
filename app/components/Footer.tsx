@@ -11,7 +11,7 @@ export function Footer() {
         </div>
         <div className="footer-links" aria-label="Footer navigation">
           <Link href="/privacy">Privacy</Link>
-          <a href="mailto:bjzaffar@gmail.com">Contact email</a>
+          <a href="mailto:khushu.help@gmail.com">Contact email</a>
           <span className="footer-placeholder-link" aria-disabled="true">
             Instagram
           </span>
