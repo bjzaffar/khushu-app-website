@@ -55,7 +55,7 @@ export function DeleteAccountConfirmation() {
       window.sessionStorage.removeItem("khushu-deletion-request");
       setStatus("sent");
       setMessage(
-        "Your deletion request has been sent to our support team. We may contact you to verify account ownership before completing it.",
+        "Your deletion request has been sent to our support team. We'll contact you to verify account ownership before completing it.",
       );
     } catch {
       setStatus("error");
@@ -73,7 +73,7 @@ export function DeleteAccountConfirmation() {
         <>
           <p>
             Send this deletion request for <strong>{request?.email || "your account"}</strong>.
-            We will review it and may contact you to verify account ownership
+            We&apos;ll review it and contact you to verify account ownership
             before completing the deletion.
           </p>
           {status === "loading" ? (
