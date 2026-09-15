@@ -79,7 +79,7 @@ export default function Home() {
               <div className="phone-speaker" />
               <div className="phone-screen phone-screen-image">
                 <img
-                  src="/khushu-insights.jpg"
+                  src="/khushu-insights.png"
                   alt="Khushu App insights screen showing prayer focus trends"
                 />
               </div>
