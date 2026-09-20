@@ -56,20 +56,20 @@ export default function Home() {
               distractions.
             </p>
             <div className="download-actions" aria-label="App download options">
-              <button
-                className="download-button download-button-primary"
-                type="button"
+              <a
+                className="download-button download-button-primary download-button-link"
+                href="https://play.google.com/store/apps/details?id=com.khushuai.app"
               >
-                Download for iOS
-              </button>
+                Download for Android
+              </a>
               <button
                 className="download-button download-button-secondary"
                 type="button"
               >
-                Download for Android
+                <span>Download for iOS</span>
+                <span className="download-button-note">Coming soon...</span>
               </button>
             </div>
-            <p className="download-note">Coming soon...</p>
           </div>
 
           <div className="hero-visual" aria-label="Khushu App insights screen">
