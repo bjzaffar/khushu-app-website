@@ -238,16 +238,27 @@ p {
 }
 
 .download-button {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   min-height: 64px;
   padding: 0 32px;
   border-radius: 19px;
+  font-family: inherit;
   font-size: 1rem;
   font-weight: 750;
   cursor: default;
+  line-height: 1.2;
   transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
-.download-button:hover {
+.download-button-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.download-button-link:hover {
   transform: translateY(-2px);
 }
 
@@ -265,10 +276,10 @@ p {
   box-shadow: 0 12px 25px rgba(48, 65, 50, 0.07);
 }
 
-.download-note {
-  margin: 12px 0 0;
+.download-button-note {
+  margin-top: 4px;
   color: var(--muted);
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 600;
 }
 
@@ -1314,10 +1325,6 @@ p {
   .download-button {
     width: 100%;
     min-height: 64px;
-  }
-
-  .download-note {
-    text-align: center;
   }
 
   .hero-visual {
